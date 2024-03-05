@@ -1,6 +1,17 @@
+import { Fragment } from "react"
+import Navbar from "../components/Layouts/navbar"
+import Footer from "../components/Layouts/footer"
+
 const HomePage = () => {
   return(
-    <div className="text-large text-bold flex justify-center">Home Page</div>
+    <Fragment>
+    <Navbar />
+      <div className="text-large text-bold bg-slate-300 flex justify center flex justify-center">
+        Home
+      </div>
+    <Footer />
+    </Fragment>
+    
   )
 }
 
