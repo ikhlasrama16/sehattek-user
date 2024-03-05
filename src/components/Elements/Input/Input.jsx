@@ -5,7 +5,7 @@ const Input = forwardRef((props, ref) =>{
   return(
     <input 
     type={type} 
-    className="text-sm w-full p-2 border border-slate-200 rounded-md" 
+    className="w-full border border-violet-500 rounded-md" 
     placeholder={placeholder}
     name={name}
     id={name} 
