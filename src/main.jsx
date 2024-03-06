@@ -6,6 +6,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import HomePage from './pages/Home.jsx';
+import LoginPage from './pages/Login.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/mitra",
     element: <div>mitra</div>
+  },
+  {
+    path: "/login",
+    element: <LoginPage />
   },
 ])
 

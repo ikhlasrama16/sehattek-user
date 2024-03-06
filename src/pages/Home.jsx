@@ -9,12 +9,12 @@ const HomePage = () => {
     <Fragment>
       <div className="bg-white-300 h-screen">
         <Navbar/>
-        <button className="fixed top-10 right-10 px-4 py-2 bg-violet-500 text-white rounded-md font-bold">
+        <button className="fixed top-5 right-10 px-4 py-2 bg-violet-500 text-white rounded-md font-bold" onClick={() => window.location.href="/login"}>
           Login
         </button>
         <div className="flex flex-col justify-center items-center h-full">
           <div className="text-large text-bold w-3/5 mb-4">
-            <InputForm className="px-4 py-2" />
+            <InputForm className="py-5" />
           </div>
           <dir className="grid grid-cols-3 gap-4">
           <Card>
